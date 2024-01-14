@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/Udayaprakash18/JAVA_Devops_project'
+        git branch: 'main', url: 'https://github.com/Udayaprakash18/JAVA_Devops_project'
       }
     }
     stage('Build and Test') {
